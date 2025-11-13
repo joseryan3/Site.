@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-Index {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  position: fixed; /* Fixa o formulário na tela */
+  top: 50%; /* Move para 50% da altura da tela */
+  left: 50%; /* Move para 50% da largura da tela */
+  transform: translate(-50%, -55%); /* Centraliza exatamente */
+  gap: 10px;
+  margin: 0;
+  justify-content: center;
+  color: black;
+  background-color: #e0d283;
+  border-radius: 20px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+
+
+
+.form-Index input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: var(--cor-aux1);
+}
+
+
+.form-Index input[type="submit"]{
+  background-color: var(--cor-aux1);
+  transition: 1s;
+}
+
+
+.form-Index input[type="submit"]:hover{
+background-color: #6B8E23;
+
+}
